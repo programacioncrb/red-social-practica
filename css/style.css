@@ -504,15 +504,16 @@ main .container .right {
     margin-bottom: 0.7rem;
 }
 
-.right .request .info {
-    display: flex;
+.right .request .info .request-info {
     gap: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
-.right .request .action {
-    display: flex;
-    gap: 1rem;
+
+.right .request .info .action {
+    margin-bottom: 0.6rem;
+    justify-content: space-between;
 }
 
 
